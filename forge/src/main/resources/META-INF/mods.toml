@@ -1,0 +1,44 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+license = "GPLv2"
+issueTrackerURL="https://github.com/zbx1425/mtr-addon-template/issues"
+
+[[mods]]
+modId = "mtraddontemplate"
+version = "${version}"
+displayName = "MTRAddonTemplate"
+displayURL = "https://github.com/zbx1425/mtr-addon-template/"
+
+authors = "Zbx1425"
+description = "MtrAddonTemplate"
+logoFile = "icon.png"
+
+displayTest = "IGNORE_ALL_VERSION"
+
+[[dependencies.mtraddontemplate]]
+modId = "forge"
+mandatory = true
+versionRange = "[36,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mtraddontemplate]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.5,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mtraddontemplate]]
+modId = "architectury"
+mandatory = true
+versionRange = "[1.26.37,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.mtraddontemplate]]
+modId = "mtr"
+mandatory = true
+versionRange = "1.0"
+ordering = "AFTER"
+side = "BOTH"
